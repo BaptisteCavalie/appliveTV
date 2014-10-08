@@ -22,4 +22,7 @@ exports.postEmission = function (req, res) {
 	twitter.refreshStream(tags);
 	// redirige vers la home
 	res.redirect('/');
+
+	//
+	//
 }
